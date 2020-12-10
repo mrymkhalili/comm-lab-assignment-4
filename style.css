@@ -1,13 +1,8 @@
 body{
-  background-image: url(https://st.depositphotos.com/1022027/2484/i/950/depositphotos_24841573-stock-photo-old-newspaper-background.jpg) center center cover no-repeat fixed;
+  background-image: url(https://st.depositphotos.com/1022027/2484/i/950/depositphotos_24841573-stock-photo-old-newspaper-background.jpg);
   margin: 0;
   width: 100%;
   text-align: center;
-}
-
-div {
-  resize: both;
-  overflow: auto;
 }
 
 .center{
