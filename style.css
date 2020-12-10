@@ -1,13 +1,14 @@
 body{
-  background-image: url(https://st.depositphotos.com/1022027/2484/i/950/depositphotos_24841573-stock-photo-old-newspaper-background.jpg);
   margin: 0;
   width: 100%;
   text-align: center;
 }
 
-.center{
-  text-align: center;
-  margin-top: 0;
+.newspaper{
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 0px;
+  margin-bottom: 0px;
 } 
 
 
@@ -18,16 +19,51 @@ body{
 }
 
 
-.headline{
+.video-container {
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe {
   position: absolute;
+  top: 47%;
+  left: 14%;
+  width: 50%;
+  height: 52%;
+}
+
+.video-container1 {
+  position:relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.video-container1 iframe {
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.headline{
+  position: relative;
   text-transform: uppercase;
+  margin-top: 10%;
   left: 50%;
   margin-left: -400px;
   top: 28%;
   text-emphasis: bold;
-  font: 50px Times, Arial;
-  
+  font: 300% Times, Arial;
 }
+
+
+
 
 .column1 {
   position: absolute;
@@ -69,19 +105,15 @@ body{
   clear: both;
 }
 
-.ansh_intro {
-  position: absolute;
-  top: 55%;
-  left: 14%;
-}
-.nau_intro {
-  position: absolute;
-  top: 75%;
-  left: 14%;
-}
+
 #icon1{
   position: absolute;
   top: 43%;
   left: 14%;
   width: 3cm
+}
+
+.img1 {
+  width: 100%;
+  height: auto;
 }
