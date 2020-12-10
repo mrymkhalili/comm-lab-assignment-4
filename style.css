@@ -1,0 +1,87 @@
+body{
+  background-image: url(https://st.depositphotos.com/1022027/2484/i/950/depositphotos_24841573-stock-photo-old-newspaper-background.jpg);
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+  margin-top: 0;
+} 
+
+
+#intro{
+  position: absolute;
+  top: 43%;
+  left: 14%;
+}
+
+
+.headline{
+  position: absolute;
+  text-transform: uppercase;
+  left: 50%;
+  margin-left: -400px;
+  top: 28%;
+  text-emphasis: bold;
+  font: 50px Times, Arial;
+  
+}
+
+.column1 {
+  position: absolute;
+  top: 100%;
+  margin-left: 14%;
+  float: left;
+  width: 25%;
+  text-align: left;
+
+}
+
+.column2 {
+  position: absolute;
+  top: 100%;
+  margin-left: 40%;
+  float: left;
+  width: 25%;
+  text-align: left;
+
+}
+
+
+.column3 {
+  position: absolute;
+  top: 45%;
+  margin-left: 66%;
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  position: absolute;
+  top: 30%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ansh_intro {
+  position: absolute;
+  top: 55%;
+  left: 14%;
+}
+.nau_intro {
+  position: absolute;
+  top: 75%;
+  left: 14%;
+}
+#icon1{
+  position: absolute;
+  top: 43%;
+  left: 14%;
+  width: 3cm
+}

@@ -1,0 +1,47 @@
+body{
+  background-image:url('background.gif');
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+}
+
+
+.headline{
+  position: absolute;
+  text-transform: uppercase;
+  left: 50%;
+  margin-left: -400px;
+  top: 5%;
+  text-emphasis: bold;
+  font: 50px Times, Arial;
+  color: White;
+
+}
+
+.column {
+  margin-top: 15%;
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 680px;
+  filter: grayscale(40%);
+  transition: 0.4s;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.column img {
+  margin-top: 20%;
+  cursor: pointer;
+  position: fixed;
+  width: 70%;
+}
+
+#icon1:hover,
+#icon2:hover,
+#icon3:hover,
+#icon4:hover {
+  width: 80%;
+}
